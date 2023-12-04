@@ -87,9 +87,9 @@ prompt_entry.grid(row=2, column=0, padx=10, pady=5, sticky="w")
 submit_button = tk.Button(root, text="Submit", command=submit_prompt)
 submit_button.grid(row=2, column=0, padx=5, pady=5, sticky="e")
 
-# Configure row and column weights to allow resizing
+# Configure row and column weights to allow resizing for different sized screens.
 root.grid_rowconfigure(1, weight=1)
 root.grid_columnconfigure(0, weight=1)
 
-# Run the Tkinter event loop
+# Run the Tkinter event loo
 root.mainloop()
